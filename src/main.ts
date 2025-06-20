@@ -8,6 +8,8 @@ import { inicializarCargaProductos } from "./slices/productsSlice";
 import { enrutador } from "./routers/router";
 
 function main() {
+  const numero: string = 1;
+  console.log(numero)
   store.dispatch(inicializarCargaProductos());
   enrutador();
 }
